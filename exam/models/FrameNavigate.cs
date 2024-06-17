@@ -10,5 +10,6 @@ namespace exam.models
     internal class FrameNavigate
     {
         public static Frame frame { get; set; }
+        public static Users user;
     }
 }

@@ -16,3 +16,12 @@ C:\Users\ASUS\source\repos\exam\exam\obj\Debug\exam.csproj.GenerateResource.cach
 C:\Users\ASUS\source\repos\exam\exam\obj\Debug\exam.csproj.CoreCompileInputs.cache
 C:\Users\ASUS\source\repos\exam\exam\obj\Debug\exam.exe
 C:\Users\ASUS\source\repos\exam\exam\obj\Debug\exam.pdb
+C:\Users\ASUS\source\repos\exam\exam\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\source\repos\exam\exam\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\source\repos\exam\exam\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\ASUS\source\repos\exam\exam\obj\Debug\Pages\PageClient.g.cs
+C:\Users\ASUS\source\repos\exam\exam\obj\Debug\Pages\PageMaster.g.cs
+C:\Users\ASUS\source\repos\exam\exam\obj\Debug\exam_Content.g.cs
+C:\Users\ASUS\source\repos\exam\exam\obj\Debug\Pages\PageClient.baml
+C:\Users\ASUS\source\repos\exam\exam\obj\Debug\Pages\PageMaster.baml
+C:\Users\ASUS\source\repos\exam\exam\obj\Debug\exam.csproj.CopyComplete

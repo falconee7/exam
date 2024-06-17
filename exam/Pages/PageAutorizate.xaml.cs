@@ -1,4 +1,6 @@
-﻿using System;
+﻿using exam.controllers;
+using exam.models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +22,28 @@ namespace exam.Pages
     /// </summary>
     public partial class PageAutorizate : Page
     {
+        private AutorizateController _autorizateController;
         public PageAutorizate()
         {
             InitializeComponent();
+            _autorizateController = new AutorizateController();
+
+        }
+
+        private void BtnLogin_Click(object sender, RoutedEventArgs e)
+        {
+            string login = TxbLogin.Text;
+            string password = TxbPassword.Text;
+            FrameNavigate.user = _autorizateController.FindUserByLoginAndPassword(login, password);
+            switch (FrameNavigate.user.UserRoleId)
+            {
+                case 1:
+                    FrameNavigate.frame.Navigate(new PageClient());
+                    break;
+                case 2:
+                    FrameNavigate.frame.Navigate(new PageMaster());
+                    break;
+            }
         }
     }
 }

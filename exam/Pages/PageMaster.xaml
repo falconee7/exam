@@ -1,0 +1,15 @@
+﻿<Page x:Class="exam.Pages.PageMaster"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:exam.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="600"
+      Title="PageMaster">
+
+    <Grid>
+        <TextBlock FontSize="20" Text="Кабинет мастера" HorizontalAlignment="Center"/>
+        <Button HorizontalAlignment="Right" VerticalAlignment="Top" Content="Назад" Name="BtnBack" Click="BtnBack_Click"/>
+    </Grid>
+</Page>
