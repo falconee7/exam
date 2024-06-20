@@ -11,8 +11,9 @@
             <RowDefinition Height="80"/>
             <RowDefinition Height="354"/>
         </Grid.RowDefinitions>
-    <StackPanel Background="CadetBlue"></StackPanel>
+        <StackPanel Background="CadetBlue"></StackPanel>
         <Image HorizontalAlignment="Left" Source="\Resource\logo.png"/>
         <Frame Name="frame" NavigationUIVisibility="Hidden" Grid.Row="1"/>
+        <Button Name="BtnExit" Click="BtnExit_Click" Content="Выход" HorizontalAlignment="Right" VerticalAlignment="Top"/>
     </Grid>
 </Window>

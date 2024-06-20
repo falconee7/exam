@@ -28,5 +28,10 @@ namespace exam
             FrameNavigate.frame = this.frame;
             FrameNavigate.frame.Navigate(new PageAutorizate());
         }
+
+        private void BtnExit_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

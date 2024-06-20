@@ -32,17 +32,24 @@ namespace exam.Pages
 
         private void BtnLogin_Click(object sender, RoutedEventArgs e)
         {
+            try
+            {
             string login = TxbLogin.Text;
             string password = TxbPassword.Text;
             FrameNavigate.user = _autorizateController.FindUserByLoginAndPassword(login, password);
             switch (FrameNavigate.user.UserRoleId)
-            {
+                {
                 case 1:
                     FrameNavigate.frame.Navigate(new PageClient());
                     break;
                 case 2:
                     FrameNavigate.frame.Navigate(new PageMaster());
                     break;
+               }
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Ошибка",MessageBoxButton.OK,MessageBoxImage.Error);
             }
         }
     }

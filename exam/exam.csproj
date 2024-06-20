@@ -74,7 +74,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
-    <Compile Include="models\DbConnection.cs" />
+    <Compile Include="dbconnection\DbConnection.cs" />
     <Compile Include="Requests.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -126,7 +126,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Model1.edmx</DependentUpon>
     </Compile>
-    <Compile Include="models\FrameNavigate.cs" />
+    <Compile Include="dbconnection\FrameNavigate.cs" />
     <Compile Include="Pages\PageAutorizate.xaml.cs">
       <DependentUpon>PageAutorizate.xaml</DependentUpon>
     </Compile>
